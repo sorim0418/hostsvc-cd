@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: sorim/node-app:1.0
+        images: sorim/node-app:c2ba77c583dfd195c16ad46773102ccec6e8b9c3
         resources:
           limits:
             memory: "128Mi"
